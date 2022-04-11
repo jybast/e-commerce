@@ -33,6 +33,10 @@ Javascript
 * Configurer le base.html.twig 
 5 - Inscription et authentification des utilisateurs (Symfony 6)
 * Préparer le système d'authentification et d'enregistrement
+6 - Optimisation des entités et DataFixtures
+7 - Création des contrôleurs
+8 - Intégrer les données dans les vues 
+9 - Vérification d'adresse email sans bundle
 
 ## TO DO
 
