@@ -1,0 +1,12 @@
+<h1>Activer votre compte
+</h1>
+<p>Bonjour
+	{{ user.firstname}}</p>
+<p>Votre inscription est à valider en cliquant sur le lien ci-dessous :
+</p>
+<p>
+	{# Le lien doit avoir une url absolue par rapport au site #}
+	<a href="{{ absolute_url(path('verify_user', {token: token}))}}">Lien
+	</a>
+</p>
+<p>Ce lien expire dans trois heures.</p>
